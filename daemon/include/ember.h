@@ -27,7 +27,7 @@ typedef struct {
 typedef struct {
     int  pid;
     char title[512];
-    int  x, y, width, height;
+    float  x, y, width, height;
     int  desktop_num;
     int  focused;
 } WindowRecord;
